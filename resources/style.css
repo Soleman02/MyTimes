@@ -9,6 +9,9 @@ body {
 header {
   width: auto;
   height: 80px;
+}
+
+.row {
   border-bottom: 1px solid black;
 }
 
