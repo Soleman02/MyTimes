@@ -9,6 +9,7 @@ body {
 header {
   width: auto;
   height: 80px;
+  border-bottom: 1px solid black;
 }
 
 .logo {
