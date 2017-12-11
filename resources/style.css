@@ -2,18 +2,20 @@
 
 
 body {
-  background-color: #ffffff;
+
 }
 
 
 header {
   width: auto;
-  height: 80px;
+  height: 50px;
+
 }
 
 ul {
-    display: inline-block;
+    display: block;
     list-style: none;
+    background: blue;
 }
 
 .row {
@@ -27,4 +29,5 @@ ul {
 
 .nav {
   color: black;
+  background-color: black;
 }
