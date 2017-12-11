@@ -1,0 +1,22 @@
+
+
+
+body {
+  background-color: #ffffff;
+}
+
+
+header {
+  width: auto;
+  height: 80px;
+}
+
+.logo {
+  height: 20px;
+  width: auto;
+}
+
+.nav {
+  color: black;
+  display: inline-block;
+}
