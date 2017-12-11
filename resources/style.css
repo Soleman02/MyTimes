@@ -13,14 +13,14 @@ ul {
 }
 
 .row {
-  border-bottom: black solid 5px;
+  border-bottom: 5px solid black;
 }
 
-.logo {
+.row .logo {
   height: 20px;
   width: auto;
 }
 
-.nav {
+.row .nav {
   color: black;
 }
