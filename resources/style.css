@@ -11,8 +11,8 @@ header {
   height: 80px;
 }
 
-li {
-    display: inline;
+ul {
+    display: inline-block;
     list-style: none;
 }
 
