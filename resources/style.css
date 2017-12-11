@@ -16,6 +16,10 @@ ul {
   border: 5px solid black;
 }
 
+.bottomBorder {
+  border-bottom: 5px solid black;
+}
+
 .row .logo {
   height: 20px;
   width: auto;
