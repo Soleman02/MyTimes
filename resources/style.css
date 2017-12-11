@@ -12,7 +12,7 @@ header {
 }
 
 .row {
-  border-bottom: 1px solid black;
+  border-bottom: solid black 1px;
 }
 
 .logo {
