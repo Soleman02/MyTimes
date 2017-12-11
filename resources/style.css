@@ -13,18 +13,11 @@ ul {
 }
 
 .container {
-  width: auto;
-  height: 80px;
-  border: 5px solid black;
+  width: 100%;
+  height: 110px;
+  border-bottom: 1px solid black;
 }
 
-.row {
-  border: 5px solid black;
-}
-
-.bottomBorder {
-  border-bottom: 5px solid black;
-}
 
 .row .logo {
   height: 20px;
