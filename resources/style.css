@@ -8,7 +8,7 @@ body {
 
 header {
   width: auto;
-  height: 50px;
+  height: 500px;
 
 }
 
@@ -29,5 +29,4 @@ ul {
 
 .nav {
   color: black;
-  background-color: black;
 }
