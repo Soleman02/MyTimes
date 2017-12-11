@@ -12,6 +12,12 @@ ul {
     background: blue;
 }
 
+.container {
+  width: auto;
+  height: 80px;
+  border-bottom: 5px solid black;
+}
+
 .row {
   border: 5px solid black;
 }
