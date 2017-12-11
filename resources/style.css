@@ -11,6 +11,10 @@ header {
   height: 80px;
 }
 
+ul {
+    display: inline-block;
+}
+
 .row {
   border-bottom: solid black 1px;
 }
@@ -22,5 +26,4 @@ header {
 
 .nav {
   color: black;
-  display: inline-block;
 }
