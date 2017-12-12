@@ -1,6 +1,6 @@
 
 body {
- height: 3000px;
+ height: 1000px;
 }
 
 header {
@@ -36,7 +36,6 @@ li {
   text-decoration-color: black;
   font-family: Verdana;
   font-size: 14px;
-  font-weight: bold;
 }
 
 a {
@@ -68,13 +67,35 @@ a:hover {
   width: 100%;
 }
 
-.flex-container {
-  height: 1800px;
+.flex-container-column {
+  height: 1130px;
   width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
 
+.flex-container-row {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-row-2 {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  margin-top: 80px;
+  background-color: #15D0B4;
+  width: 95%;
+  border-top-right-radius: 10px;
 }
 
 .beyond-banner {
@@ -84,8 +105,6 @@ a:hover {
 .space-from-side {
   margin-left: 10px;
 }
-
-
 
 .large {
   width: 640px;
@@ -119,6 +138,7 @@ a:hover {
 
 .pic2 {
   margin-left: -5px;
+  margin-top: 0px;
 }
 
 h1 {
@@ -130,10 +150,26 @@ h1 {
   font-weight: bold;
 }
 
+.h2-1 {
+  margin-bottom: 20px;
+}
+
+.h2-2 {
+  margin-bottom: 20px;
+}
+
 p {
   font-family: Verdana;
  font-size: 14px;
- font-weight: bold;
+}
+
+.h1smpic {
+  color: #ffffff;
+  z-index: 8;
+  position: absolute;
+  font-family: serif;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .one {
@@ -170,4 +206,36 @@ p {
 
 .eight {
   height: 423px;
+}
+
+.nine {
+  height: 190px;
+}
+
+.menu {
+  width: 100%;
+  text-align: left;
+  padding: 3px;
+  height: auto;
+  background-color: WhiteSmoke;
+}
+
+.menu .p1 {
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+span.title {
+  color: #ffffff;
+}
+
+span.nav2 {
+  font-weight: lighter;
+}
+
+.copyright {
+  color: black;
+  font-weight: lighter;
+  margin: -170px 0 0 420px;
 }
