@@ -218,6 +218,7 @@ p {
   padding: 3px;
   height: auto;
   background-color: WhiteSmoke;
+  border-bottom: 1px solid black;
 }
 
 .menu .p1 {
