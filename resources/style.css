@@ -1,32 +1,173 @@
 
-
-
 body {
-
+ height: 3000px;
 }
 
+header {
+  height: 110px;
+  border-bottom: 1px solid black;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 20;
+  background-color: #ffffff;
+}
+
+span {
+  padding-left: 10px;
+  color: #15D0B4;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
 
 ul {
     display: block;
     list-style: none;
-    background: blue;
+    height: 100%;
 }
 
-.container {
-  width: 100%;
-  height: 110px;
-  border-bottom: 1px solid black;
-  padding: 0px;
-  margin: 0px;
-  background-color: grey;
+li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 40px 0 0 30px;
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease;
+}
+
+a:hover {
+ transition: all 0.5s ease;
+ background: #15D0B4;
+ padding: 10px;
+ text-decoration: none;
+ color: black;
+ margin: -10px;
+ border-radius: 20px;
 }
 
 
 .row .logo {
-  height: 20px;
-  width: auto;
+  padding: 10px 0 0 40px;
+  height: 60px;
+  width: 70px;
 }
 
 .row .nav {
   color: black;
+  text-align: center;
+  width: 100%;
+}
+
+.flex-container {
+  height: 1800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.beyond-banner {
+  margin-top: 100px;
+}
+
+.space-from-side {
+  margin-left: 10px;
+}
+
+
+
+.large {
+  width: 640px;
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+}
+
+.box {
+  height: 500px;
+}
+
+.img1 {
+  height: 152px;
+  position: relative;
+}
+
+.img2 {
+  position: relative;
+  display: inline-block;
+}
+
+.pic1 {
+  margin-left: 2px;
+}
+
+.pic2 {
+  margin-left: -5px;
+}
+
+h1 {
+  color: #ffffff;
+  z-index: 8;
+  position: absolute;
+  font-family: serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Verdana;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+.one {
+  height: 301px;
+}
+
+.two {
+ height: 230px;
+}
+
+.three {
+  height: 435px;
+}
+
+.four {
+  height: 435px;
+}
+
+.five {
+  height: 300px;
+}
+
+.six {
+  height: 250px;
+}
+
+.cookie {
+  width: 236px;
+}
+
+.seven {
+  height: 372px;
+}
+
+.eight {
+  height: 423px;
 }
